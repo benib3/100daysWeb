@@ -1,0 +1,80 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  background-color: rgba(224, 207, 240, 0.959);
+}
+header {
+  margin: 10px;
+  text-align: center;
+}
+header h1 {
+  color: blueviolet;
+}
+header img {
+  width: 400px;
+}
+p {
+  color: rgb(255, 255, 255);
+}
+h2 {
+  color: rgb(255, 255, 255);
+}
+main {
+  width: 900px;
+  margin: 32px auto;
+}
+section {
+}
+/* List starts  */
+
+ul {
+  padding: 32px;
+  list-style: none;
+  text-align: left;
+  background-color: rgb(156, 71, 224);
+  border-radius: 8px;
+  font-size: 16px;
+}
+li {
+  margin: 10px 0;
+  color: rgb(255, 255, 255);
+  padding-left: 4px;
+}
+
+.important {
+  color: antiquewhite;
+  border-left: 5px solid;
+  border-left-color: rgb(226, 211, 74);
+  padding-left: 8px;
+}
+/* List ends  */
+.reference {
+  padding: 4px;
+  border-radius: 5px;
+}
+a {
+  padding: 10px;
+  color: rgb(5, 9, 12);
+  background-color: antiquewhite;
+  text-decoration: none;
+}
+a:hover {
+  background-color: aliceblue;
+}
+/* Footer starts */
+footer {
+  text-align: center;
+}
+#pdf-button {
+  background-color: rgb(226, 184, 69);
+  border-radius: 5px;
+  margin: auto;
+}
+#credits {
+  color: rgba(128, 128, 128, 0.562);
+}
+/* Footer ends */

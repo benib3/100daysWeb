@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(207, 159, 159);
+  margin: 50px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+}
+
+a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: rgb(167, 1, 78);
+}
+
+a:hover {
+  text-decoration: underline;
+}
