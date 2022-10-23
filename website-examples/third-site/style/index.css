@@ -1,0 +1,46 @@
+#hero {
+  height: 800px;
+  background-image: url("/imgs/main-background/water.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  position: relative;
+  top: 200px;
+  box-shadow: 2px 4px 8px rgba(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto 0 auto;
+}
+
+#hero-content h1 {
+  color: aliceblue;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+#hero-content p {
+  color: aliceblue;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+#hero-content a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 24px;
+  background-color: rgba(255, 251, 0);
+  text-transform: capitalize;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgba(68, 67, 67);
+}
+#hero-content a:hover {
+  background-color: rgba(255, 238, 0);
+}
