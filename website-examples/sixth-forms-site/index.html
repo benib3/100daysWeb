@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/index.css" />
+  </head>
+  <body>
+    <header><h1>Contact us</h1></header>
+
+    <form action="/" method="GET">
+      <h2>How can we help you?</h2>
+      <label for="username">Your name</label>
+      <input type="text" name="user-name" id="username" required />
+
+      <label for="email">Your email adress</label>
+      <input type="email" name="user-email" id="email" required />
+
+      <label for="phonenumber">Your phone number</label>
+      <input type="number" name="user-age" id="phonenumber" />
+
+      <label for="usermessage">Your message</label>
+      <textarea id="usermessage" rows="6"></textarea>
+
+      <hr />
+
+      <label for="findus">How do you find us?</label>
+      <select name="find-us" id="findus">
+        <option value="search">Web search</option>
+        <option value="mouth">Word of mouth</option>
+        <option value="other">Other</option>
+      </select>
+
+      <h2>How should we reply?</h2>
+      <section class="radio-wrapper">
+        <div class="form-inline-elements">
+          <input type="radio" name="reply" id="reply-call" value="text-call" />
+          <label for="reply-call">Call me</label>
+        </div>
+        <div class="form-inline-elements">
+          <input
+            type="radio"
+            id="reply-email"
+            name="reply"
+            value="text-email"
+          />
+          <label for="reply-email">Send me an email</label>
+        </div>
+
+        <div class="form-inline-elements">
+          <input type="radio" name="reply" id="no-reply" value="text-noreply" />
+          <label for="no-reply">Don't reply</label>
+        </div>
+      </section>
+      <br />
+      <div class="form-inline-elements">
+        <input type="checkbox" id="agree-terms" name="terms" />
+        <label for="agree-terms">Accept terms</label>
+      </div>
+
+      <section id="button-wrapper">
+        <button id="clear-btn">Clear</button>
+        <button id="submit-btn">Submit</button>
+      </section>
+    </form>
+  </body>
+</html>

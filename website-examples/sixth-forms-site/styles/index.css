@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(216, 215, 215);
+  margin: 8rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+form {
+  width: 35rem;
+  margin: 3rem auto;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+textarea {
+  resize: vertical;
+}
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(10, 10, 10);
+  text-transform: uppercase;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  padding: 0.25rem;
+  border: 1px solid rgb(184, 184, 184);
+  color: rgb(61, 58, 58);
+  border-radius: 5px;
+}
+input:focus,
+textarea:focus {
+  background-color: rgba(114, 169, 231, 0.555);
+  color: rgb(6, 27, 119);
+  border-color: rgb(6, 27, 85);
+}
+
+#button-wrapper {
+  display: flex;
+
+  justify-content: right;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  display: block;
+  font: inherit;
+  background-color: rgb(6, 20, 85);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1px solid rgb(184, 184, 184);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(114, 169, 231, 0.8 55);
+}
+.radio-wrapper {
+  display: grid;
+}
+.form-inline-elements {
+  display: flex;
+  margin-bottom: -0.5rem;
+}
+
+.form-inline-elements input {
+  width: auto;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+.form-inline-elements label {
+  margin-bottom: 1rem;
+}
+#clear-btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(6, 20, 85);
+  margin-right: 0.5rem;
+}
