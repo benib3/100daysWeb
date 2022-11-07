@@ -1,0 +1,42 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+form {
+  margin: 4rem auto;
+  width: 90%;
+  max-width: 50rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 1rem;
+}
+.container {
+  background-color: rgb(152, 209, 209);
+  padding: 1rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+input {
+  width: 15rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  vertical-align: middle;
+  padding: 0.35rem;
+  border: 1px solid rgb(17, 17, 17);
+}
+button {
+  width: 5rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  display: block;
+  cursor: pointer;
+}
+
+#char-count {
+}
+#remaining-chars {
+  color: chocolate;
+}
