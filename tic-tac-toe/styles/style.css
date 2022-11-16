@@ -1,0 +1,60 @@
+body {
+  --primary-colo: rgb(44, 41, 44);
+  --bg-colo: rgb(247, 239, 247);
+  --my-colo: rgb(88, 91, 235);
+  --my-btn-colo: rgb(88, 50, 235);
+  --my-btn-colo-hover: rgb(88, 90, 235);
+  --my-btn-colo-cancel: rgba(121, 128, 201, 0.575);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: var(--primary-colo);
+  background-color: var(--bg-colo);
+}
+#main-header {
+  background-color: var(--my-colo);
+  color: var(--bg-colo);
+  padding: 2rem 5%;
+  text-align: center;
+}
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--my-btn-colo);
+  border: 1px solid var(--my-btn-colo);
+  color: var(--bg-colo);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--my-colo);
+}
+
+.btn:hover {
+  background-color: var(--my-btn-colo-hover);
+  border-color: var(--my-btn-colo-hover);
+}
+
+.btn-alt:hover {
+  background-color: var(--my-btn-colo-cancel);
+  border-color: transparent;
+}
+
+hr {
+  width: calc(25rem);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+svg {
+  width: 2rem;
+  height: 2rem;
+  margin: 1.5rem 0.5rem;
+}
+.wrapp-svg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

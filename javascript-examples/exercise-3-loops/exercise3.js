@@ -55,8 +55,7 @@ function rollDice() {
     var list = document.createElement("li");
     rolled_number = Math.floor(Math.random() * 6) + 1;
     counter++;
-    list.innerHTML =
-      "Roll turn: " + counter + ": Rolled number:" + rolled_number;
+    list.innerHTML = "Roll: " + counter + ":" + rolled_number;
     dice_rolls.appendChild(list);
   }
   output_rolls.innerHTML = counter;
