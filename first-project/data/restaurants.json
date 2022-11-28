@@ -6,5 +6,13 @@
     "website": "https://test.com",
     "description": "dada",
     "resId": "3622fd64-6b8d-4439-ab06-7b6fff06f4e0"
+  },
+  {
+    "name": "aot",
+    "address": "jasajl",
+    "cuisine": "Italian",
+    "website": "https://test.com",
+    "description": "dad",
+    "resId": "27f43886-149c-4dba-acde-fd2a034b598e"
   }
 ]
